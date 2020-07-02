@@ -151,8 +151,8 @@ class App extends React.Component {
                 <Header style={{"backgroundColor":'#ccc'}}>
                   <Row>
                       <Col span={23}>
-                        <Menu mode="horizontal" defaultSelectedKeys={['1']} style={{"backgroundColor":'#ccc'}}>
-                          <SubMenu onClick={this.filtBySize} trigger='hover' title="尺码选择" defaultSelectedKeys={['1']}>
+                        <Menu mode="horizontal" style={{"backgroundColor":'#ccc'}}>
+                          <SubMenu onClick={this.filtBySize} trigger='hover' title="尺码选择">
                             <Menu.Item key="ALL">所有尺码</Menu.Item>
                             <Menu.Item key="S">S</Menu.Item>
                             <Menu.Item key="M">M</Menu.Item>
